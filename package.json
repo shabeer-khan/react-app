@@ -1,0 +1,49 @@
+{
+  "name": "master-data-conslidation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shabeer_skhan@infosys.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "nodejs-mysql": "^0.1.3",
+    "papaparse": "^5.1.1",
+    "popper.js": "^1.16.0",
+    "promised-mongo": "^1.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "exports-loader": "^0.7.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
